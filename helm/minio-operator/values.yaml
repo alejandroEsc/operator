@@ -104,7 +104,6 @@ tenants:
     subPath: /data
     # pool secrets
     secrets:
-      enabled: true
       name: minio1-secret
       accessKey: minio
       secretKey: minio123
@@ -155,7 +154,6 @@ tenants:
         pullPolicy: IfNotPresent
       replicaCount: 1
       secrets:
-        enabled: true
         name: console-secret
         passphrase: SECRET
         salt: SECRET
